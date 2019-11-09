@@ -4,30 +4,25 @@
     <list default="true" id="fbd55f09-eba4-4444-b12d-9be1cdb78b07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/SareetaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/auth-course.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/SareetaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/CartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/UserOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/repositories/CartRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/repositories/ItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/repositories/OrderRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/persistence/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/requests/CreateUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/requests/ModifyCartRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/JWTAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/JWTAuthorizationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/SecurityConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/WebSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/SareetaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/EventBodySerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorEventInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorLogbackAppender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorLoggingHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorMiddleware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorResendMiddleware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/HttpEventCollectorSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/MessageFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/SplunkCimLogEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/splunk/logging/TcpAppender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/SareetaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/SareetaApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/EventBodySerializer$Default.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/EventBodySerializer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/HttpEventCollectorErrorHandler$ErrorCallback.class" beforeDir="false" />
@@ -52,14 +47,12 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/SplunkCimLogEvent.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/TcpAppender$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/splunk/logging/TcpAppender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdklogging.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/SareetaApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controller/CartControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controller/UserControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controller.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controller.UserControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controller.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controller.UserControllerTest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +90,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/splunk-library-javalogging-1.7.2.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\P04-eCommerce Application\starter_code" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,8 +194,8 @@
       <list>
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="Application.SareetaApplication" />
-        <item itemvalue="JUnit.UserControllerTest.create_user_happy_path" />
         <item itemvalue="JUnit.SareetaApplicationTests" />
+        <item itemvalue="JUnit.UserControllerTest.create_user_happy_path" />
         <item itemvalue="JUnit.UserControllerTest.test_different_password" />
       </list>
     </recent_temporary>
@@ -217,7 +218,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
