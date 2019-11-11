@@ -1,3 +1,5 @@
 com\example\demo\TestUtils.class
+com\example\demo\controllers\OrderControllerTests.class
 com\example\demo\controllers\CartControllerTest.class
+com\example\demo\controllers\ItemControllerTests.class
 com\example\demo\controllers\UserControllerTest.class

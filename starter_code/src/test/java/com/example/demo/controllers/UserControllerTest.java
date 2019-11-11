@@ -14,13 +14,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 public class UserControllerTest {
 
     private UserController userController;
-
-
 
     private UserRepository userRepository=mock(UserRepository.class);
 
@@ -82,6 +82,42 @@ public class UserControllerTest {
 
         assertNotNull(response);
         assertEquals(400, response.getStatusCodeValue());
+
+
+    }
+
+    @Test
+    public void find_user_by_username(){
+
+        User user = new User();
+        user.setId(1);
+        user.setUsername("Username");
+        user.setPassword("Password");
+
+
+        given(userRepository.findByUsername(any())).willReturn(user);
+        final ResponseEntity<User> response = userController.findByUserName(user.getUsername());
+
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+
+
+    }
+
+    @Test
+    public void find_user_by_userId(){
+
+        User user = new User();
+        user.setId(1);
+        user.setUsername("Username");
+        user.setPassword("Password");
+
+
+        given(userRepository.findById(any())).willReturn(java.util.Optional.of(user));
+        final ResponseEntity<User> response = userController.findById(user.getId());
+
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
 
 
     }
