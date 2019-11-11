@@ -101,8 +101,6 @@ public class CartControllerTest {
         final ResponseEntity<Cart> response1 = cartController.removeFromcart(r1);
         assertNotNull(response1);
         assertEquals(200, response1.getStatusCodeValue());
-
-        Cart c=response1.getBody();
-    }
+  }
 
 }
