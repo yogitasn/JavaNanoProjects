@@ -35,3 +35,6 @@
 2019-11-09 12:45:24.652 ERROR 21572 --- [main] com.example.demo.SareetaApplication      : Message logged at ERROR level
 2019-11-09 12:45:24.655  WARN 21572 --- [main] com.example.demo.SareetaApplication      : Message logged at WARN level
 2019-11-09 12:45:24.657  INFO 21572 --- [main] com.example.demo.SareetaApplication      : Message logged at INFO level
+2019-11-09 16:20:55.039  WARN 21572 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m52s420ms105µs100ns).
+2019-11-09 16:21:48.432  WARN 21572 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s382ms203µs600ns).
+2019-11-09 17:01:55.142  WARN 21572 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s223ms650µs800ns).
